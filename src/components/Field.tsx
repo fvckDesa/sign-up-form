@@ -21,7 +21,6 @@ const Field = forwardRef(
       onIconClick,
       name = title,
       className = "",
-      tabIndex = 1,
       ...inputProps
     }: FieldProps,
     ref: Ref<HTMLInputElement>
@@ -41,7 +40,6 @@ const Field = forwardRef(
             } rounded-md mt-1 text-sm transition-colors`}
             id={name}
             name={name}
-            tabIndex={tabIndex}
             {...inputProps}
           />
           <button
