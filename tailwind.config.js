@@ -6,12 +6,16 @@ export default {
       colors: {
         smokeWhite: "#F3F4F6",
         lightGray: "#ADB6CF",
+        lightBlue: "#397EF611",
         accentBlue: "#397EF6",
         accentBlueFocus: "#397EF655",
         lightBlack: "#2F2E37",
       },
       boxShadow: {
         focus: "0 0 0 0.25rem #000",
+      },
+      width: {
+        container: "48rem",
       },
     },
   },
